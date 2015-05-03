@@ -18,29 +18,27 @@
   </head>
   <body ng-controller="newConsumerCtrl" class="text-center">
     <div class="container-fluid" id="main">
-      <div class="box">
-        <div class="row">
+      <div class="row">
+        <hr>
+          <h2><strong>Create a new consumer:</strong></h2>
+        <hr>
+        <div class="col-sm-6 col-sm-offset-3">
           <hr>
-            <h2><strong>Create a new consumer:</strong></h2>
+            <h4>Create a new user:</h4>
+            <h5>Below you can select the topic you like the most. Dont worry if you like more
+              that one, you can add more topics later.</h5>
           <hr>
-          <div class="col-xs-12 col-sm-offset-3 col-md-6 text-center">
-            <hr>
-              <h4>Create a new user:</h4>
-              <h5>Below you can select the topic you like the most. Dont worry if you like more
-                that one, you can add more topics later.</h5>
-            <hr>
-            <h5><strong>Select a topic to listen:</strong></h5>
-            <form role="form" ng-submit="createUser(user)">
-              <select name="topics" class="form-control" ng-model="user.topic" id="topics">
-                <option value="" disabled selected>Select an option</option>
-              </select>
-              <div class="form-group" style="margin-top: 10px;">
-                <button type="submit" class="btn btn-success" >Subscribe</button>
-              </div>
-            </form>
-          </div>          
+          <h5><strong>Select a topic to listen:</strong></h5>
+          <form role="form" ng-submit="createUser(user)">
+            <select name="topics" class="form-control" ng-model="user.topic" id="topics">
+              <option value="" disabled selected>Select an option</option>
+            </select>
+            <div class="form-group" style="margin-top: 10px;">
+              <button type="submit" class="btn btn-success" >Subscribe</button>
+            </div>
+          </form>
         </div>
-      </div>    
+      </div>
     </div>  
   </body>
 </html>
