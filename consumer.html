@@ -25,7 +25,7 @@
           <hr>
           <h5>Consumer: #{{userID}}</h5>
           <h5>Topics you are listening: {{myTopics}}</h5>
-          <div class="col-xs-12 col-sm-12 col-md-4">  
+          <div class="col-md-4">  
             <hr><h4>Listen a new topic:</h4><hr>
             <h5>You can listen as many topics you want</h5>
             <form role="form" ng-submit="updateUser(user)">
@@ -41,7 +41,7 @@
               </div>
             </form> 
           </div>          
-          <div class="col-xs-12 col-sm-12 col-md-4">
+          <div class="col-md-4">
             <hr><h4>Send a message:</h4><hr>
             <h5>Push the button Update to reload the page and receive messages from a producer</h5>
             <h5>Be aware that when you reload the page you will <b>lose</b> all the messages you have here
@@ -64,7 +64,7 @@
               <button class="btn btn-info" ng-click="getMessage();">Update</button>    
             </div> 
           </div>
-          <div class="col-xs-12 col-sm-12 col-md-4">  
+          <div class="col-md-4">  
             <hr><h4>Stop listening a topic:</h4><hr>
             <h5>You won't receive more message from the topic you select</h5>
             <form role="form" ng-submit="stopListeningTopic(stopuser)">
