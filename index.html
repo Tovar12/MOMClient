@@ -21,15 +21,41 @@
       <div class="box">
         <div class="row">
           <hr>
-            <h2><strong>Select an option:</strong></h2>
+            <h2 class="text-center"><strong>MOM Service-Web-Application:</strong></h2>
+            <h4><strong>About It:</strong></h4>
+            <h5>
+              This web page is the client view of the challenge 2 in the subject <i>Tópicos Especiales en Telemática</i>.
+            </h5>
+            <h5>
+              The project was developed by Sara Castrillón and Felipe Tovar.
+            </h5>
+            <h4>
+              <strong>How to use?</strong>
+            </h4>            
+          <h5>Before do anything please read both guides.</h5>                              
           <hr>
-          <div style="margin-top: 25px;" class="col-xs-12 col-sm-12 col-md-1">                    
-            <form action="producer.html" target="_blank">
-              <input class="btn btn-primary" type="submit" value="Producer">      
+          <div class="col-xs-12 col-sm-12 col-md-6">
+            <h4><strong>Producer guide:</strong></h4>
+            <h5>You have 3 options:</h5>
+            <h5>1. Create a new topic. Just write a name and click the button to create It.</h5>
+            <h5>2. Send a message. Select the topic and write a message, the click the button to send It.</h5>
+            <h5>3. Delete a topic. Choose a topic and click the button to delete It.</h5>
+            <h5>Remember that no matter what option you choose, the users (consumers) need to reload their paged
+                so they can see the changes.</h5>
+            <form action="producer.html" target="_blank" class="text-center">
+              <input class="btn btn-primary text-center" type="submit" value="Producer">      
             </form>    
           </div>          
-          <div style="margin-top: 25px;" class="col-xs-12 col-sm-12 col-md-1">
-            <form action="create_user.html" target="_blank">
+          <div class="col-xs-12 col-sm-12 col-md-6">
+            <h4><strong>Consumer guide:</strong></h4>
+            <h5>First, you need to create your costumer choosing the topic you like the most.</h5>
+            <h5>Then, you have 3 options:</h5>            
+            <h5>1. Listen a new topic. You can listen as many topics as the producer creates.</h5>
+            <h5>2. Receive a message. Click the button to update the view, the old messages will be deleted and
+                the new ones will be displayed.</h5>
+            <h5>3. Stop listening a topic. You can select a topic you have and stop Its incoming messages. You can listen
+                again to that topic in the <i>Listen a new topic</i> option.</h5>
+            <form action="create_user.html" target="_blank" class="text-center">
               <input class="btn btn-primary" type="submit" value="Consumer">
             </form>
           </div>
